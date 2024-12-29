@@ -4,10 +4,10 @@
     "description": "A simple CRUD API for managing patients using Node.js, Express, and MySQL",
     "main": "dist/index.js",
     "scripts": {
-        "start": "node dist/index.js",
+        "start": "node index.js",
         "dev": "nodemon index.js",
         "clean": "rimraf dist",
-        "build": "npm index.js"
+        "build": "babel . --out-dir dist --ignore node_modules"
     },
     "dependencies": {
         "copyfiles": "^2.4.1",
