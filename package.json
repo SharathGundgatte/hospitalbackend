@@ -7,8 +7,7 @@
         "start": "node dist/index.js",
         "dev": "nodemon index.js",
         "clean": "rimraf dist",
-        "build": "npm run clean && node copy-all.js ",
-        "copy-public": "node copy-all.js"
+        "build": "npm index.js"
     },
     "dependencies": {
         "copyfiles": "^2.4.1",
